@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import quinaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-tiling-block-size@deno/mod.js';
+import quinaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-tiling-block-size@v0.1.0-deno/mod.js';
 ```
 
 #### quinaryBlockSize( dtypeX, dtypeY, dtypeZ, dtypeW, dtypeU, dtypeV )
@@ -101,7 +101,7 @@ The function supports the following arguments:
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import cartesianPower from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-cartesian-power@deno/mod.js';
 import promoteDataTypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-promote-dtypes@deno/mod.js';
-import quinaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-tiling-block-size@deno/mod.js';
+import quinaryBlockSize from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-quinary-tiling-block-size@v0.1.0-deno/mod.js';
 
 // Generate a list of input ndarray dtype quintuplets:
 var dt = cartesianPower( dtypes(), 5 );
